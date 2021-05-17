@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		79A87E97264FF4FB00EBD6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87E96264FF4FB00EBD6CD /* AppDelegate.swift */; };
 		79A87E99264FF4FC00EBD6CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87E98264FF4FC00EBD6CD /* SceneDelegate.swift */; };
-		79A87E9B264FF4FC00EBD6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87E9A264FF4FC00EBD6CD /* ViewController.swift */; };
 		79A87E9E264FF4FC00EBD6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A87E9C264FF4FC00EBD6CD /* Main.storyboard */; };
 		79A87EA0264FF4FE00EBD6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A87E9F264FF4FE00EBD6CD /* Assets.xcassets */; };
 		79A87EA3264FF4FE00EBD6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A87EA1264FF4FE00EBD6CD /* LaunchScreen.storyboard */; };
+		79A87EAB264FF55A00EBD6CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87EAA264FF55A00EBD6CD /* HomeViewController.swift */; };
+		79A87EAD26500BDD00EBD6CD /* SingerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87EAC26500BDD00EBD6CD /* SingerData.swift */; };
+		79A87EB32650D25C00EBD6CD /* 好想愛這個世界啊.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79A87EAE2650D25B00EBD6CD /* 好想愛這個世界啊.mp3 */; };
+		79A87EB42650D25C00EBD6CD /* 與火星的孩子對話.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79A87EAF2650D25B00EBD6CD /* 與火星的孩子對話.mp3 */; };
+		79A87EB52650D25C00EBD6CD /* 七重人格.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79A87EB02650D25B00EBD6CD /* 七重人格.mp3 */; };
+		79A87EB62650D25C00EBD6CD /* 瘋人院.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79A87EB12650D25C00EBD6CD /* 瘋人院.mp3 */; };
+		79A87EB72650D25C00EBD6CD /* 鬥牛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79A87EB22650D25C00EBD6CD /* 鬥牛.mp3 */; };
+		79A87EB92650E64A00EBD6CD /* SingerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87EB82650E64A00EBD6CD /* SingerUIView.swift */; };
+		79A87EBB2650F84D00EBD6CD /* AlbumUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87EBA2650F84D00EBD6CD /* AlbumUIView.swift */; };
+		79A87EBF26511AC200EBD6CD /* SongUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87EBE26511AC200EBD6CD /* SongUIView.swift */; };
+		79A87EC32651780A00EBD6CD /* PlayerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87EC22651780A00EBD6CD /* PlayerStatus.swift */; };
+		79DFA97026528B440011A127 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFA96F26528B440011A127 /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79A87E93264FF4FB00EBD6CD /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A87E96264FF4FB00EBD6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79A87E98264FF4FC00EBD6CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79A87E9A264FF4FC00EBD6CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79A87E9D264FF4FC00EBD6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79A87E9F264FF4FE00EBD6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A87EA2264FF4FE00EBD6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A87EA4264FF4FE00EBD6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A87EAA264FF55A00EBD6CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		79A87EAC26500BDD00EBD6CD /* SingerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerData.swift; sourceTree = "<group>"; };
+		79A87EAE2650D25B00EBD6CD /* 好想愛這個世界啊.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "好想愛這個世界啊.mp3"; sourceTree = "<group>"; };
+		79A87EAF2650D25B00EBD6CD /* 與火星的孩子對話.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "與火星的孩子對話.mp3"; sourceTree = "<group>"; };
+		79A87EB02650D25B00EBD6CD /* 七重人格.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "七重人格.mp3"; sourceTree = "<group>"; };
+		79A87EB12650D25C00EBD6CD /* 瘋人院.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "瘋人院.mp3"; sourceTree = "<group>"; };
+		79A87EB22650D25C00EBD6CD /* 鬥牛.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "鬥牛.mp3"; sourceTree = "<group>"; };
+		79A87EB82650E64A00EBD6CD /* SingerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerUIView.swift; sourceTree = "<group>"; };
+		79A87EBA2650F84D00EBD6CD /* AlbumUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumUIView.swift; sourceTree = "<group>"; };
+		79A87EBE26511AC200EBD6CD /* SongUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongUIView.swift; sourceTree = "<group>"; };
+		79A87EC22651780A00EBD6CD /* PlayerStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatus.swift; sourceTree = "<group>"; };
+		79DFA96F26528B440011A127 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +79,23 @@
 			isa = PBXGroup;
 			children = (
 				79A87E96264FF4FB00EBD6CD /* AppDelegate.swift */,
+				79DFA96F26528B440011A127 /* MusicViewController.swift */,
 				79A87E98264FF4FC00EBD6CD /* SceneDelegate.swift */,
-				79A87E9A264FF4FC00EBD6CD /* ViewController.swift */,
 				79A87E9C264FF4FC00EBD6CD /* Main.storyboard */,
+				79A87EAC26500BDD00EBD6CD /* SingerData.swift */,
+				79A87EBE26511AC200EBD6CD /* SongUIView.swift */,
+				79A87EAA264FF55A00EBD6CD /* HomeViewController.swift */,
+				79A87EC22651780A00EBD6CD /* PlayerStatus.swift */,
+				79A87EBA2650F84D00EBD6CD /* AlbumUIView.swift */,
+				79A87EB82650E64A00EBD6CD /* SingerUIView.swift */,
 				79A87E9F264FF4FE00EBD6CD /* Assets.xcassets */,
 				79A87EA1264FF4FE00EBD6CD /* LaunchScreen.storyboard */,
 				79A87EA4264FF4FE00EBD6CD /* Info.plist */,
+				79A87EB02650D25B00EBD6CD /* 七重人格.mp3 */,
+				79A87EAE2650D25B00EBD6CD /* 好想愛這個世界啊.mp3 */,
+				79A87EB22650D25C00EBD6CD /* 鬥牛.mp3 */,
+				79A87EB12650D25C00EBD6CD /* 瘋人院.mp3 */,
+				79A87EAF2650D25B00EBD6CD /* 與火星的孩子對話.mp3 */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -125,6 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A87EA3264FF4FE00EBD6CD /* LaunchScreen.storyboard in Resources */,
+				79A87EB32650D25C00EBD6CD /* 好想愛這個世界啊.mp3 in Resources */,
+				79A87EB52650D25C00EBD6CD /* 七重人格.mp3 in Resources */,
+				79A87EB42650D25C00EBD6CD /* 與火星的孩子對話.mp3 in Resources */,
+				79A87EB72650D25C00EBD6CD /* 鬥牛.mp3 in Resources */,
+				79A87EB62650D25C00EBD6CD /* 瘋人院.mp3 in Resources */,
 				79A87EA0264FF4FE00EBD6CD /* Assets.xcassets in Resources */,
 				79A87E9E264FF4FC00EBD6CD /* Main.storyboard in Resources */,
 			);
@@ -137,9 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A87E9B264FF4FC00EBD6CD /* ViewController.swift in Sources */,
 				79A87E97264FF4FB00EBD6CD /* AppDelegate.swift in Sources */,
+				79A87EB92650E64A00EBD6CD /* SingerUIView.swift in Sources */,
+				79A87EBF26511AC200EBD6CD /* SongUIView.swift in Sources */,
+				79A87EBB2650F84D00EBD6CD /* AlbumUIView.swift in Sources */,
+				79A87EAD26500BDD00EBD6CD /* SingerData.swift in Sources */,
 				79A87E99264FF4FC00EBD6CD /* SceneDelegate.swift in Sources */,
+				79DFA97026528B440011A127 /* MusicViewController.swift in Sources */,
+				79A87EC32651780A00EBD6CD /* PlayerStatus.swift in Sources */,
+				79A87EAB264FF55A00EBD6CD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
